@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contacts</title>
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="/load_header_and_footer.js"></script>        
+    </head>
+    <body>
+        <header id="header"></header>
+        <h1>CONTACT US</h1>
+
+        <h2>Contacts</h2>
+        <h3>Phone number:</h3>
+        <p>+7 (000) - 000 - 00 - 00</p>
+        <h3>Address:</h3>
+        <p>000000, Russian Federation, Novaya Zemlya, 'Tzar bomb' test site</p>
+
+        <script type="text/javascript" 
+                charset="utf-8" 
+                async 
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A37a4a4ad772db11fee7479e7895474eb8d7dd0daacaf0edfecc1bf28e624663c&amp;width=500&amp;height=400&amp;lang=en_US&amp;scroll=true">
+        </script>
+
+        <form action>
+            <fieldset>
+                <legend>Write us</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="username">Name:&nbsp;</label>
+                            </td>
+                            <td>
+                                <input name="user" id="username" type="text" placeholder="Enter your name...">
+                            </td>
+                        </tr>
+                            <td>
+                                <label for="email">E-mail:&nbsp;</label>
+                            </td>
+                            <td>
+                                <input name="e-mail" id="email" type="text" placeholder="mail@example.com">
+                            </td>
+                        <tr>
+                            <td>
+                                <label for="subject">Subject:&nbsp;</label>
+                            </td>
+                            <td>
+                                <input name="subject" id="subject" type="text" placeholder="Message subject...">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea name="Message text" id="message"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <button>Send</button>
+            </fieldset>
+        </form>
+
+        <footer id="footer"></footer>
+    </body>
+</html>
