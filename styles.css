@@ -40,3 +40,10 @@ body {
 #item_description img {
     border: 1px black solid;
 }
+
+#item_description h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
