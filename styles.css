@@ -22,14 +22,14 @@ body {
     width: 100%;
 }
 
-#brief_description {
+#item_description #brief_description {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
 
-#full_description {
+#item_description #full_description {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -37,8 +37,16 @@ body {
     text-align: left;
 }
 
+#item_description #full_description ul {
+    list-style-type: square;
+}
+
 #item_description img {
     border: 1px black solid;
+}
+
+#item_description h1 {
+    font-variant: small-caps;
 }
 
 #item_description h2 {
@@ -46,4 +54,26 @@ body {
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
+}
+
+
+#item_description #specifications {
+    background-color: #eaefef;   
+    color: #1f1c1c;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: lowercase;
+}
+
+#item_description #specifications b {
+    color: black;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+#item_description #specifications td {
+    padding-right: 50px;
 }
