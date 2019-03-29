@@ -2,6 +2,7 @@ body {
     background-color: #f8f8f8;
 }
 
+
 .header {
     color: #f8f8f8;
     background-color: deepskyblue;
@@ -19,6 +20,21 @@ body {
     color: #f8f8f8;
     background-color: deepskyblue;
     font-size: 1em;
+    width: 100%;
+}
+
+#contacts input {
+    height: 24px;
+    width: 100%;
+}
+
+#contacts table {
+    height: 10%;
+    width: 30%;
+}
+
+#contacts textarea {
+    height: 100%;
     width: 100%;
 }
 
