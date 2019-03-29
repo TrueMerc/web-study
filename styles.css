@@ -2,6 +2,9 @@ body {
     background-color: #f8f8f8;
 }
 
+body a {
+    text-decoration: none;
+}
 
 .header {
     color: #f8f8f8;
@@ -12,7 +15,27 @@ body {
     width: 100%;
 }
 
-.header a {
+.header a:visited {
+    color: #005555;
+}
+
+.header a:hover {
+    color: rgb(233, 236, 227);
+    font-size: 1.1em
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header li {
+    display: inline;
+}
+
+.header li a {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -109,16 +132,13 @@ body {
     text-transform: lowercase;
 }
 
-#item_description #specifications b {
-    color: black;
-    font-variant: small-caps;
-    text-align: center;
-}
-
 #item_description #specifications td {
     padding-bottom: 15px;
 }
 
 #item_description #specifications td b {
+    color: black;
+    font-variant: small-caps;
     padding-right: 50px;
+    text-align: center;
 }
