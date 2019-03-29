@@ -1,5 +1,9 @@
 body {
     background-color: #f8f8f8;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
 }
 
 body a {
@@ -12,6 +16,7 @@ body a {
     font-size: 1.5em;
     font-variant: small-caps; 
     text-transform: lowercase;
+    height: 10%;
     width: 100%;
 }
 
@@ -22,6 +27,12 @@ body a {
 .header a:hover {
     color: rgb(233, 236, 227);
     font-size: 1.1em
+}
+
+.header hr {
+    color: #f8f8f8;
+    margin: 0;
+    padding: 1;
 }
 
 .header ul {
@@ -44,6 +55,7 @@ body a {
     color: #f8f8f8;
     background-color: deepskyblue;
     font-size: 1em;
+    height: 10%;
     width: 100%;
 }
 
@@ -120,7 +132,6 @@ body a {
     background-color: #eaeaea;
 }
 
-
 #item_description #specifications {
     background-color: #eaefef;   
     color: #1f1c1c;
@@ -141,4 +152,27 @@ body a {
     font-variant: small-caps;
     padding-right: 50px;
     text-align: center;
+}
+
+#main_page table {
+    color: #484343;
+    text-align: center;
+    height: 80%;
+    width: 100%;
+    font-size: 0.75rem;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#main_page table img {
+    width: 50%;
+}
+
+#main_page #main_header {
+    color: #484343;
+    font-size: 80px;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-transform: uppercase;
 }
