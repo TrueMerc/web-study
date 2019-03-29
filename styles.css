@@ -8,6 +8,7 @@ body {
     background-color: deepskyblue;
     font-size: 1.5em;
     font-variant: small-caps; 
+    text-transform: lowercase;
     width: 100%;
 }
 
@@ -26,11 +27,35 @@ body {
 #contacts input {
     height: 24px;
     width: 100%;
+    font-size: 18px;
+}
+
+#contacts label {
+    height: 24px;
+    width: 100%;
+    font-size: 18px;
+}
+
+#contacts fieldset legend {
+    color:black;
+    line-height: 30px;
+    font-size: 24px;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-transform: lowercase;
 }
 
 #contacts table {
     height: 10%;
     width: 30%;
+}
+
+#contacts table th, td {
+    padding-bottom: 8px;
+}
+
+#contacts table td textarea {
+    height: 300px;
 }
 
 #contacts textarea {
@@ -91,5 +116,9 @@ body {
 }
 
 #item_description #specifications td {
+    padding-bottom: 15px;
+}
+
+#item_description #specifications td b {
     padding-right: 50px;
 }
