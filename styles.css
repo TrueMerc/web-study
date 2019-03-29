@@ -1,0 +1,144 @@
+body {
+    background-color: #f8f8f8;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.header {
+    color: #f8f8f8;
+    background-color: deepskyblue;
+    font-size: 1.5em;
+    font-variant: small-caps; 
+    text-transform: lowercase;
+    width: 100%;
+}
+
+.header a:visited {
+    color: #005555;
+}
+
+.header a:hover {
+    color: rgb(233, 236, 227);
+    font-size: 1.1em
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header li {
+    display: inline;
+}
+
+.header li a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer {
+    color: #f8f8f8;
+    background-color: deepskyblue;
+    font-size: 1em;
+    width: 100%;
+}
+
+#contacts input {
+    height: 24px;
+    width: 100%;
+    font-size: 18px;
+}
+
+#contacts label {
+    height: 24px;
+    width: 100%;
+    font-size: 18px;
+}
+
+#contacts fieldset legend {
+    color:black;
+    line-height: 30px;
+    font-size: 24px;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+#contacts table {
+    height: 10%;
+    width: 30%;
+}
+
+#contacts table th, td {
+    padding-bottom: 8px;
+}
+
+#contacts table td textarea {
+    height: 300px;
+}
+
+#contacts textarea {
+    height: 100%;
+    width: 100%;
+}
+
+#item_description #brief_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+#item_description #full_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+#item_description #full_description ul {
+    list-style-type: square;
+}
+
+#item_description img {
+    border: 1px black solid;
+}
+
+#item_description h1 {
+    font-variant: small-caps;
+}
+
+#item_description h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+
+#item_description #specifications {
+    background-color: #eaefef;   
+    color: #1f1c1c;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: lowercase;
+}
+
+#item_description #specifications td {
+    padding-bottom: 15px;
+}
+
+#item_description #specifications td b {
+    color: black;
+    font-variant: small-caps;
+    padding-right: 50px;
+    text-align: center;
+}
