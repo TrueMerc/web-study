@@ -78,6 +78,11 @@ footer {
     font-size: 18px;
 }
 
+#contacts #email:focus {
+    color:#484343;
+    background-color: rgb(255, 255, 157);
+}
+
 #contacts label {
     height: 24px;
     width: 100%;
