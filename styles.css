@@ -78,6 +78,10 @@ footer {
     font-size: 18px;
 }
 
+#contacts #username {
+    text-transform: capitalize;    
+}
+
 #contacts #email:focus {
     color:#484343;
     background-color: rgb(255, 255, 157);
