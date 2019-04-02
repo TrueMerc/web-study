@@ -1,49 +1,73 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: #f8f8f8;
+    margin:0;
+    padding:0;
+    height: 100%;
 }
 
 body a {
     text-decoration: none;
 }
 
-.header {
+header {
+    border-bottom: 1px solid #484343;
+    height: 7%;
+    width: 100%;
     color: #f8f8f8;
     background-color: deepskyblue;
     font-size: 1.5em;
     font-variant: small-caps; 
     text-transform: lowercase;
-    width: 100%;
 }
 
-.header a:visited {
+header a:visited {
     color: #005555;
 }
 
-.header a:hover {
+header a:hover {
     color: rgb(233, 236, 227);
     font-size: 1.1em
 }
 
-.header ul {
+header table {
+    height: 100%;
+}
+
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.header li {
+header li {
     display: inline;
 }
 
-.header li a {
+header li a {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.footer {
+header li img[src="/images/logo.png"] {
+    border: none;
+    width: 3%;
+    height: 3%;
+    padding-left: 1%;
+    vertical-align: middle;
+}
+
+footer {
+    border-top: 1px solid #484343;
+
     color: #f8f8f8;
     background-color: deepskyblue;
     font-size: 1em;
+    height: 10%;
     width: 100%;
 }
 
@@ -51,6 +75,15 @@ body a {
     height: 24px;
     width: 100%;
     font-size: 18px;
+}
+
+#contacts #username {
+    text-transform: capitalize;    
+}
+
+#contacts #email:focus {
+    color:#484343;
+    background-color: rgb(255, 255, 157);
 }
 
 #contacts label {
@@ -105,8 +138,12 @@ body a {
     list-style-type: square;
 }
 
-#item_description img {
-    border: 1px black solid;
+#item_description img.item_image {
+    border: 1px solid black;
+}
+
+#item_description img.item_image:hover {
+    border: 1px solid #f8f8f8;
 }
 
 #item_description h1 {
@@ -120,25 +157,87 @@ body a {
     background-color: #eaeaea;
 }
 
-
 #item_description #specifications {
     background-color: #eaefef;   
     color: #1f1c1c;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    font-variant: small-caps;
     font-weight: 400;
     line-height: 30px;
-    text-transform: lowercase;
+    text-transform: capitalize;
+}
+
+
+#item_description #specifications table ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 0;
 }
 
 #item_description #specifications td {
+    padding-top: 0;
     padding-bottom: 15px;
+    vertical-align: top;
+}
+
+#item_description #specifications td:nth-of-type(3n) {
+    padding-left: 30px;
 }
 
 #item_description #specifications td b {
     color: black;
+    font-size: 24px;
     font-variant: small-caps;
     padding-right: 50px;
     text-align: center;
+    text-transform: lowercase;
+    vertical-align: top;
+}
+
+#main_page {
+    height: 85%;
+    width: 100%;
+}
+
+#main_page table {
+    color: #484343;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 0.75rem;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#main_page table tr:first-child {
+    height: 300px;
+}
+
+#main_page table img {
+    width: 50%;
+}
+
+#main_page #main_header {
+    color: #484343;
+    margin: 0;
+    font-size: 80px;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#snowboards_catalog p.snowboard_name::first-letter {
+    color: red;
+    font-size: 1.1rem;
+    font-style: bold;
+}
+
+#snowboards_catalog img.snowboard_image {
+    border: 1px solid black;
+}
+
+#snowboards_catalog img.snowboard_image:hover {
+    border: 1px solid #f8f8f8;
 }

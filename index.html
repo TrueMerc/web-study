@@ -7,12 +7,39 @@
         <script src="load_header_and_footer.js"></script>         
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <header id="header"></header>        
-    
-        <a href="snowboards_catalog.html"><h1>Snowboard equipment</h1></a>
-        <a href="skiies_catalog.html"><h1>Ski equipment</h1></a>
-
-        <footer id="footer"></footer>        
+    <body id="main_page">
+        <header id="header"></header>
+        
+        <table>
+            <tr>
+                <td rowspan="2">
+                    <img src="/images/logo.png" alt="logo">
+                </td>
+                <td colspan="2">
+                    <p id="main_header"> Welcome to Fake Snowboards shop </p>
+                </td>
+                <td rowspan="2">
+                    <img src="/images/logo.png" alt="logo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="snowboarding/catalog.html">
+                        <h1>Snowboarding equipment</h1>
+                    </a>
+                    <img    src="/images/snowboarding/unknown.jpg"
+                            alt="Unknown snowboard image">
+                </td>
+                <td>
+                    <a href="skiing/catalog.html">
+                        <h1>Skiing equipment</h1>
+                    </a>
+                    <img    src="/images/snowboarding/unknown.jpg"
+                            alt="Unknown snowboard image">                    
+                </td>                
+            </tr>
+        </table>
+        
+        <footer id="footer"></footer>
     </body>
 </html>
