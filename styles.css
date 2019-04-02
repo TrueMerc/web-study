@@ -211,12 +211,17 @@ footer {
     text-transform: uppercase;
 }
 
+#main_page table tr:first-child {
+    height: 300px;
+}
+
 #main_page table img {
     width: 50%;
 }
 
 #main_page #main_header {
     color: #484343;
+    margin: 0;
     font-size: 80px;
     font-variant: small-caps;
     font-weight: 400;
