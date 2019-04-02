@@ -234,10 +234,10 @@ footer {
     font-style: bold;
 }
 
-#snowboards_catalog img {
+#snowboards_catalog img.snowboard_image {
     border: 1px solid black;
 }
 
-#snowboards_catalog img:hover {
+#snowboards_catalog img.snowboard_image:hover {
     border: 1px solid #f8f8f8;
 }
