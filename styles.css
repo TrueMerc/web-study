@@ -33,13 +33,6 @@ header a:hover {
     font-size: 1.1em
 }
 
-header li img[src="/images/logo.png"] {
-    width: 3%;
-    height: 3%;
-    padding-left: 1%;
-    vertical-align: middle;
-}
-
 header table {
     height: 100%;
 }
@@ -58,6 +51,14 @@ header li {
 header li a {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+header li img[src="/images/logo.png"] {
+    border: none;
+    width: 3%;
+    height: 3%;
+    padding-left: 1%;
+    vertical-align: middle;
 }
 
 
@@ -129,7 +130,7 @@ footer {
     list-style-type: square;
 }
 
-#item_description img {
+#item_description #item_image {
     border: 1px black solid;
 }
 
