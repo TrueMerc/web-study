@@ -61,7 +61,6 @@ header li img[src="/images/logo.png"] {
     vertical-align: middle;
 }
 
-
 footer {
     border-top: 1px solid #484343;
 
@@ -139,8 +138,12 @@ footer {
     list-style-type: square;
 }
 
-#item_description #item_image {
-    border: 1px black solid;
+#item_description img.item_image {
+    border: 1px solid black;
+}
+
+#item_description img.item_image:hover {
+    border: 1px solid #f8f8f8;
 }
 
 #item_description h1 {
@@ -224,4 +227,12 @@ footer {
     color: red;
     font-size: 1.1rem;
     font-style: bold;
+}
+
+#snowboards_catalog img {
+    border: 1px solid black;
+}
+
+#snowboards_catalog img:hover {
+    border: 1px solid #f8f8f8;
 }
