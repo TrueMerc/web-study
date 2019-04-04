@@ -33,11 +33,30 @@ header a:hover {
     font-size: 1.1em
 }
 
-header table {
+header .headerContent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+header .headerElement {
+    /* width: 100%; */
     height: 100%;
 }
 
+header div#menu.headerElement  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    text-align: right;
+    width: 100%;
+}
+
 header ul {
+    display: inline;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -46,6 +65,7 @@ header ul {
 
 header li {
     display: inline;
+    text-align: end;
 }
 
 header li a {
@@ -53,17 +73,15 @@ header li a {
     padding-right: 15px;
 }
 
-header li img[src="/images/logo.png"] {
+header img[src="/images/logo.png"] {
     border: none;
-    width: 3%;
-    height: 3%;
-    padding-left: 1%;
-    vertical-align: middle;
+    width: auto;
+    height: 100%;
+    padding-left: 10%; 
 }
 
 footer {
     border-top: 1px solid #484343;
-
     color: #f8f8f8;
     background-color: deepskyblue;
     font-size: 1em;
