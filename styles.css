@@ -231,7 +231,7 @@ footer {
 #snowboards_catalog p.snowboard_name::first-letter {
     color: red;
     font-size: 1.1rem;
-    font-style: bold;
+    font-weight: bold;
 }
 
 #snowboards_catalog img.snowboard_image {
