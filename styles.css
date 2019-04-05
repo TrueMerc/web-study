@@ -15,7 +15,7 @@ body a {
 
 header {
     border-bottom: 1px solid #484343;
-    height: 7%;
+    height: 5%;
     width: 100%;
     color: #f8f8f8;
     background-color: deepskyblue;
@@ -85,8 +85,16 @@ footer {
     color: #f8f8f8;
     background-color: deepskyblue;
     font-size: 1em;
-    height: 10%;
+    line-height: 1.2em;
+    height: 5%;
     width: 100%;
+    text-align: right;
+}
+
+footer p {
+    margin: 0;
+    padding-top: 0.5%;
+    padding-right: 2%;
 }
 
 #contacts input {
