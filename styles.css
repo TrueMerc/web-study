@@ -194,7 +194,7 @@ footer p {
 }
 
 #item_description .buy_button:active {
-    background-color: red;
+    background-color: #484343;
 }
 
 #item_description #full_description {
