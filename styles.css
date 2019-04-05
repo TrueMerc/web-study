@@ -43,7 +43,6 @@ header .headerContent {
 }
 
 header .headerElement {
-    /* width: 100%; */
     height: 100%;
 }
 
@@ -146,6 +145,20 @@ footer p {
     width: 100%;
 }
 
+.catalogItem {
+    float:left;
+    margin: 0px 1% 1% 0px;
+    text-align: center;
+}
+/* 
+.catalogItem:nth-of-type(3n + 1) {
+    margin: 0px 15px 15px 15px;
+}
+
+.catalogItem:nth-of-type(3n) {
+    margin: 0px 0px 15px 0px;
+} */
+
 #item_description .brief_description {
     display: flex;
     flex-direction: row;
@@ -242,7 +255,6 @@ footer p {
     text-transform: capitalize;
 }
 
-
 #item_description #specifications table ul {
     list-style-type: none;
     margin: 0;
@@ -268,6 +280,17 @@ footer p {
     text-align: center;
     text-transform: lowercase;
     vertical-align: top;
+}
+
+.itemsView {
+    margin: 15px;
+}
+
+.itemsView::after {
+    content: '';
+    clear: both;
+    display: block;
+    overflow: hidden;
 }
 
 #main_page {
@@ -315,4 +338,9 @@ footer p {
 
 #snowboards_catalog img.snowboard_image:hover {
     border: 1px solid transparent;
+}
+
+.itemsView {
+    padding: 0;
+    
 }
