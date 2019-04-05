@@ -16,9 +16,12 @@ body a {
 
 header {
     border-bottom: 1px solid #484343;
-    height: 5%;
+    height: 25%;
     width: 100%;
     color: #f8f8f8;
+    background-image: url(/images/header-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: deepskyblue;
     font-size: 1.5em;
     font-variant: small-caps; 
