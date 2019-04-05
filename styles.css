@@ -147,17 +147,15 @@ footer p {
 
 .catalogItem {
     float:left;
-    margin: 0px 1% 1% 0px;
+    margin: 0px 2% 2% 0px;
     text-align: center;
-}
-/* 
-.catalogItem:nth-of-type(3n + 1) {
-    margin: 0px 15px 15px 15px;
+    width: 32%;
 }
 
+
 .catalogItem:nth-of-type(3n) {
-    margin: 0px 0px 15px 0px;
-} */
+    margin: 0px 0px 2% 0px;
+}
 
 #item_description .brief_description {
     display: flex;
