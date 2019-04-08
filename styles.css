@@ -6,6 +6,7 @@ body {
     background-color: #f8f8f8;
     margin:0;
     padding:0;
+    width: 100%;
     height: 100%;
 }
 
@@ -15,9 +16,12 @@ body a {
 
 header {
     border-bottom: 1px solid #484343;
-    height: 7%;
+    height: 25%;
     width: 100%;
     color: #f8f8f8;
+    background-image: url(/images/header-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: deepskyblue;
     font-size: 1.5em;
     font-variant: small-caps; 
@@ -33,11 +37,29 @@ header a:hover {
     font-size: 1.1em
 }
 
-header table {
+header .headerContent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+header .headerElement {
     height: 100%;
 }
 
+header div#menu.headerElement  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    text-align: right;
+    width: 100%;
+}
+
 header ul {
+    display: inline;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -46,6 +68,7 @@ header ul {
 
 header li {
     display: inline;
+    text-align: end;
 }
 
 header li a {
@@ -53,22 +76,28 @@ header li a {
     padding-right: 15px;
 }
 
-header li img[src="/images/logo.png"] {
+header img[src="/images/logo.png"] {
     border: none;
-    width: 3%;
-    height: 3%;
-    padding-left: 1%;
-    vertical-align: middle;
+    width: auto;
+    height: 100%;
+    padding-left: 10%; 
 }
 
 footer {
     border-top: 1px solid #484343;
-
     color: #f8f8f8;
     background-color: deepskyblue;
-    font-size: 1em;
-    height: 10%;
+    height: 5%;
     width: 100%;
+    text-align: right;
+}
+
+footer p {
+    margin: 0;
+    padding-top: 0.25%;
+    padding-right: 2%;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
 }
 
 #contacts input {
@@ -119,11 +148,67 @@ footer {
     width: 100%;
 }
 
-#item_description #brief_description {
+.catalogItem {
+    float:left;
+    margin: 0px 2% 2% 0px;
+    text-align: center;
+    width: 32%;
+}
+
+.catalogItem:nth-of-type(3n) {
+    margin: 0px 0px 2% 0px;
+}
+
+#item_description .brief_description {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#item_description .brief_description_image {
+    height: 100%;
+}
+
+#item_description .brief_description_text_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin-left: 1%;
     color: #707070;
     font-size: 14px;
-    font-style: italic;
     line-height: 16px;
+    width: 100%;
+}
+
+#item_description .brief_description_text_part h2 {
+    margin-top: 0;
+}
+
+#item_description .brief_description_text_part p {
+    padding-left: 10px;
+}
+
+#item_description .buy_button {
+    display: table-cell;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    font-variant: small-caps; 
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    background-color: #a3a2a2;
+    border: 1px solid transparent;
+    vertical-align: middle;
+}
+
+#item_description .buy_button:hover {
+    border: 1px solid black;
+}
+
+#item_description .buy_button:active {
+    background-color: #484343;
 }
 
 #item_description #full_description {
@@ -139,11 +224,12 @@ footer {
 }
 
 #item_description img.item_image {
+    width: 100%;
     border: 1px solid black;
 }
 
 #item_description img.item_image:hover {
-    border: 1px solid #f8f8f8;
+    border: 1px solid transparent;
 }
 
 #item_description h1 {
@@ -153,8 +239,10 @@ footer {
 #item_description h2 {
     color: black;
     font-size: 18px;
+    line-height: 1.1em;
     font-weight: 400;
     background-color: #eaeaea;
+    padding-left: 10px;
 }
 
 #item_description #specifications {
@@ -166,7 +254,6 @@ footer {
     line-height: 30px;
     text-transform: capitalize;
 }
-
 
 #item_description #specifications table ul {
     list-style-type: none;
@@ -195,15 +282,27 @@ footer {
     vertical-align: top;
 }
 
+.itemsView {
+    padding: 0;
+    margin: 15px;
+}
+
+.itemsView::after {
+    content: '';
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
 #main_page {
-    height: 85%;
+    height: 100%; 
     width: 100%;
 }
 
 #main_page table {
     color: #484343;
     text-align: center;
-    height: 100%;
+    height: 90%;
     width: 100%;
     font-size: 0.75rem;
     font-variant: small-caps;
@@ -212,7 +311,7 @@ footer {
 }
 
 #main_page table tr:first-child {
-    height: 300px;
+    height: 30%;
 }
 
 #main_page table img {
@@ -228,10 +327,15 @@ footer {
     text-transform: uppercase;
 }
 
+.mapArea {
+    height: 374px;
+    width: 100%;
+}
+
 #snowboards_catalog p.snowboard_name::first-letter {
     color: red;
     font-size: 1.1rem;
-    font-style: bold;
+    font-weight: bold;
 }
 
 #snowboards_catalog img.snowboard_image {
@@ -239,5 +343,6 @@ footer {
 }
 
 #snowboards_catalog img.snowboard_image:hover {
-    border: 1px solid #f8f8f8;
+    border: 1px solid transparent;
 }
+

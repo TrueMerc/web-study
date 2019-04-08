@@ -3,8 +3,6 @@
     <head>
         <meta charset="utf-8">
         <title>Contacts</title>
-		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script src="/load_header_and_footer.js"></script>
         <link rel="stylesheet" href="styles.css">        
     </head>
     <body id="contacts">
@@ -17,10 +15,12 @@
         <h3>Address:</h3>
         <p>000000, Russian Federation, Novaya Zemlya, 'Tzar bomb' test site</p>
 
-        <script  
-            async 
-            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A37a4a4ad772db11fee7479e7895474eb8d7dd0daacaf0edfecc1bf28e624663c&amp;width=500&amp;height=400&amp;lang=en_US&amp;scroll=true">
-        </script>
+        <div class="mapArea">
+            <script  
+                async 
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A37a4a4ad772db11fee7479e7895474eb8d7dd0daacaf0edfecc1bf28e624663c&amp;width=100%&amp;height=100%&amp;lang=en_US&amp;scroll=true">
+            </script>
+        </div>
 
         <form>
             <fieldset>
@@ -66,5 +66,8 @@
         </form>
 
         <footer id="footer"></footer>
+
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="/load_header_and_footer.js"></script>
     </body>
 </html>
