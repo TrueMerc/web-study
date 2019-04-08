@@ -1,4 +1,5 @@
 html {
+    width: 100%;
     height: 100%;
 }
 
@@ -7,11 +8,16 @@ body {
     margin:0;
     padding:0;
     width: 100%;
-    height: 100%;
+    height: 95%;
 }
 
 body a {
     text-decoration: none;
+}
+
+.container {
+    padding: 1%;
+    min-height: 70%;
 }
 
 header {
@@ -148,14 +154,14 @@ footer p {
     width: 100%;
 }
 
-.catalogItem {
+.catalog_item {
     float:left;
     margin: 0px 2% 2% 0px;
     text-align: center;
     width: 32%;
 }
 
-.catalogItem:nth-of-type(3n) {
+.catalog_item:nth-of-type(3n) {
     margin: 0px 0px 2% 0px;
 }
 
@@ -282,12 +288,12 @@ footer p {
     vertical-align: top;
 }
 
-.itemsView {
+.items_view {
     padding: 0;
     margin: 15px;
 }
 
-.itemsView::after {
+.items_view::after {
     content: '';
     clear: both;
     display: block;
@@ -318,7 +324,7 @@ footer p {
     width: 50%;
 }
 
-#main_page #main_header {
+#main_page #welcome_message {
     color: #484343;
     margin: 0;
     font-size: 80px;
@@ -327,7 +333,7 @@ footer p {
     text-transform: uppercase;
 }
 
-.mapArea {
+.map_area {
     height: 374px;
     width: 100%;
 }
