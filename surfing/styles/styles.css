@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:800');
+
 html, body {
     margin: 0;
     width: 100%;
@@ -54,12 +56,28 @@ header {
 
 .socialNetworksIcons {
     position: absolute;
-    left: 900px;
+    left: 985px;
     top: 50px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     width: 120px;
+}
+
+.jpFunride {
+    position: absolute;
+    left: 748px;
+    top: 244px;
+    width: 313px;
+}
+
+.jpFunrideHeader {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 34px;
+    text-transform: uppercase;   
+    color: #fff51f; 
 }
 
 .socialNetworksIcons i {
