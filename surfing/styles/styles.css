@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.content {
+    background-color: #eaeaea;
+}
+
+.contentContainer {
+    background-color: blueviolet;
+}
+
+header {
+    height: 700px;
+    background-color: #abeafa;
+}
+
+.headerContainer {
+    height: inherit;
+    background: #912323;
+}
+
+footer {
+    height: 351px;
+    background-color: #373737;
+}
+
+.footerContainer {
+    height: inherit;
+    background-color: #e0f5fa;
+}
+
