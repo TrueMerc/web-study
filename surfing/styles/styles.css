@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
+
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.content {
+    background-color: #eaeaea;
+}
+
+.contentContainer {
+    background-color: blueviolet;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.menuContent {
+    background: #e0f5ac;
+    width: 270px;
+    margin-top: -20px;
+}
+
+.catalogContent {
+    margin-top: -20px;
+    background: #e0f5ec;
+    width: 870px;
+}
+
+header {
+    height: 700px;
+    background-color: #abeafa;
+}
+
+.headerContainer {
+    height: inherit;
+    background: #912323;
+    position: relative;
+}
+
+.logo {
+    background: url("../images/surfhouse_logo.png") no-repeat;
+    display: block;
+    height: 111px;
+    width: 125px;
+    position: absolute;
+    left: 70px;
+    top: 24px;
+}
+
+.socialNetworksIcons {
+    position: absolute;
+    left: 985px;
+    top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.jpFunride {
+    position: absolute;
+    left: 748px;
+    top: 244px;
+    width: 313px;
+}
+
+.jpFunrideHeader {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 34px;
+    text-transform: uppercase;   
+    color: #fff51f; 
+}
+
+.jpFunrideText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff51f;
+}
+
+.socialNetworksIcons i {
+    color: white;
+}
+
+footer {
+    height: 351px;
+    background-color: #373737;
+}
+
+.footerContainer {
+    height: inherit;
+    background-color: #b3e8f5;
+}
+
+
