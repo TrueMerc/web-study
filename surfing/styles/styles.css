@@ -130,6 +130,19 @@ header {
     color: #fff51f;
 }
 
+.buyNowButton {
+    position: absolute;
+    left: 751px;
+    top: 473px;
+    color: #292705;
+    background: #fff51f;
+    width: 66px;
+    padding: 17px 30px 17px 28px;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 .socialNetworksIcons i {
     color: white;
 }
