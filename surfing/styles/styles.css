@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800|Roboto:700');
 
 html, body {
     margin: 0;
@@ -40,7 +40,7 @@ header {
 
 .headerContainer {
     height: inherit;
-    background: #912323;
+    /* background: #912323; */
     position: relative;
 }
 
@@ -81,12 +81,12 @@ header {
     text-transform: uppercase;   
     color: #333333;
     width: 199px;
-    margin-top: 78px;
+    /* margin-top: 78px;
     margin-right: 46px;
     margin-bottom: 0px;
-    margin-left: 26px;
+    margin-left: 26px; */
     
-    /* margin: 82px, 46px, 0px, 45px; */
+    margin: 78px 46px 0px 26px;
     /* margin-top: 82px; */
 }
 
@@ -145,6 +145,49 @@ header {
 
 .socialNetworksIcons i {
     color: white;
+}
+
+.menuContent {
+    background: #26d2fc;
+    text-transform: uppercase;
+}
+
+.menuContent a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+    padding-left: 40px;
+    
+    line-height: 36px;
+    height: 37px;
+
+}
+
+.menuContent a:first-child {
+    color: #d6d6d6;
+    background: #333333;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    
+    line-height: 66px;
+    height: 66px;
+}
+
+.menuContent a:nth-child(n+2):hover {
+    background: #333333;
+    color: #ffffff!important;
+    line-height: 43px;
+    height: 43px;
+}
+
+.menuContent a:nth-child(n+2):visited {
+    color: #333333;
 }
 
 footer {
