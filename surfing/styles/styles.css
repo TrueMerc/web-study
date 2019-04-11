@@ -68,7 +68,7 @@ header {
     position: absolute;
     left: 748px;
     top: 244px;
-    width: 313px;
+    width: 315px;
 }
 
 .jpFunrideHeader {
@@ -81,8 +81,10 @@ header {
 }
 
 .jpFunrideText {
+    margin-top: 5px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    font-stretch: ultra-condensed;
     line-height: 24px;
     font-weight: 400;
     color: #fff51f;
