@@ -220,8 +220,11 @@ header {
 .catalogSection {
     display: block;
     width: 870px;
+    margin-top: 30px;
+    
+    margin-bottom: 30px;
     box-sizing: border-box;
-    padding: 28px 0 0 0;
+    /* padding: 28px 0 0 0; */
 }
 
 .catalogSection:after {
@@ -238,7 +241,8 @@ header {
     font-weight: 400;
     font-style: italic;    
     text-transform: uppercase;
-    padding-left: 25px;
+    padding-left: 24px;
+    padding-top: 27px;
 }
 
 .catalogItem {
@@ -247,12 +251,19 @@ header {
 
     width: 270px;
     height: 320px;
+    float: left;
 
-    margin: 30px;
     padding: 10px;
     box-sizing: border-box;
     position: relative;
-    float: left;    
+}
+
+.catalogItem:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.catalogItem:nth-child(n+4) {
+    margin-top: 30px;
 }
 
 .catalogItemImage {
