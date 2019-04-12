@@ -211,7 +211,7 @@ header {
     padding: 127px 0px 0px 142px;
 }
 
-.catalogContent {
+.catalogContent:after {
     content: '';
     clear: both;
     display: block;
@@ -304,6 +304,19 @@ header {
     font-size: 14px;
     color: #e24602;
     text-decoration: line-through;
+}
+
+.brandSection {
+    position: relative;
+    top: 30px;
+    clear: both;
+    height: 160px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    box-sizing: border-box;
 }
 
 footer {
