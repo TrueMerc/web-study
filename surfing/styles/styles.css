@@ -21,6 +21,11 @@ html, body {
     justify-content: space-between;
 }
 
+.leftPart {
+    width: 270px;
+    float: left;    
+}
+
 .menuContent {
     background: #e0f5ac;
     width: 270px;
@@ -159,12 +164,10 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    
-    padding-left: 40px;
-    
-    line-height: 36px;
-    height: 37px;
+    line-height: 37px;
 
+    padding-left: 40px;
+    height: 37px;
 }
 
 .menuContent a:first-child {
@@ -188,6 +191,25 @@ header {
 
 .menuContent a:nth-child(n+2):visited {
     color: #333333;
+}
+
+.nowIsOpen {
+    margin-top: 30px;
+    height: 300px;
+    box-sizing: border-box;
+    
+    color: #333333;
+    background: #e0e0e0;
+    
+    font-family: "Raleway - Heavy";
+    font-size: 36px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: left;
+
+    padding: 89px 0px 0px 140px;
 }
 
 footer {
