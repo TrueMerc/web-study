@@ -10,34 +10,6 @@ html, body {
     width: 1170px;
 }
 
-.content {
-    background-color: #eaeaea;
-}
-
-.contentContainer {
-    background-color: blueviolet;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.leftPart {
-    width: 270px;
-    float: left;    
-}
-
-.menuContent {
-    background: #e0f5ac;
-    width: 270px;
-    margin-top: -20px;
-}
-
-.catalogContent {
-    margin-top: -20px;
-    background: #e0f5ec;
-    width: 870px;
-}
-
 header {
     height: 700px;
     background-color: #abeafa;
@@ -152,6 +124,33 @@ header {
     color: white;
 }
 
+.content {
+    background-color: #eaeaea;
+}
+
+.contentContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.menuPart {
+    width: 270px;
+    float: left;    
+}
+
+.menuContent {
+    background: #e0f5ac;
+    width: 270px;
+    margin-top: -20px;
+}
+
+.catalogContent {
+    margin-top: -20px;
+    background: #f8f8f8;
+    width: 870px;
+}
+
 .menuContent {
     background: #26d2fc;
     text-transform: uppercase;
@@ -201,7 +200,7 @@ header {
     color: #333333;
     background: #e0e0e0;
     
-    font-family: "Raleway - Heavy";
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     font-weight: 900;
     font-style: italic;
@@ -209,7 +208,91 @@ header {
     text-transform: uppercase;
     text-align: left;
 
-    padding: 89px 0px 0px 140px;
+    padding: 127px 0px 0px 142px;
+}
+
+.catalogContent {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.catalogSection {
+    display: block;
+    width: 870px;
+    box-sizing: border-box;
+    padding: 28px 0 0 0;
+}
+
+.catalogSection:after {
+    content:'';
+    clear: both;
+    display: block;
+}
+
+.catalogSectionHeader {
+    display: block;
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;    
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+
+.catalogItem {
+    display: block;
+    background: #ffffff;
+
+    width: 270px;
+    height: 320px;
+
+    margin: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;    
+}
+
+.catalogItemImage {
+    display: block;
+    background: #eaeaea;
+
+    width: 250px;
+    height: 230px;
+}
+
+.catalogItemName {
+    display: block;
+    box-sizing: border-box;
+    padding: 17px 0 0 16px;
+
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.catalogItemPrice {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+  
+    font-style: italic;
+    font-weight: 400;
+    text-align: right;
+}
+
+.catalogItemActualPrice {
+    font-size: 18px;
+}
+
+.catalogItemOldPrice {
+    font-size: 14px;
+    color: #e24602;
+    text-decoration: line-through;
 }
 
 footer {
